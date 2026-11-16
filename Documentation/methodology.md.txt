@@ -1,0 +1,28 @@
+# Project Methodology
+
+## 1. Data Understanding
+The dataset contains 588,101 user records, including experiment group, conversion status, advertising exposure frequency, and the day and hour associated with maximum ad exposure.
+
+## 2. Data Quality Validation
+Validated record count, unique user IDs, duplicates, missing values, conversion values and advertising exposure values. No invalid records were identified in the completed checks.
+
+## 3. Descriptive Analysis
+Compared treatment and control conversion rates and investigated conversion patterns across:
+- Six advertising exposure ranges
+- Seven days of the week
+- Twenty-four hours of the day
+
+## 4. Statistical Analysis
+Applied a two-tailed two-proportion z-test at a 5% significance level to evaluate the difference between treatment and control conversion rates.
+
+Calculated the absolute conversion-rate difference, relative lift, p-value and 95% confidence interval.
+
+## 5. Business Intelligence Reporting
+Developed a Power BI report with four pages:
+- Campaign Overview
+- Ad Exposure Analysis
+- Day & Hour Analysis
+- Statistical Findings
+
+## 6. Interpretation
+Findings were interpreted descriptively. The relationship between advertising exposure and conversion was not treated as proof of causality. The unequal treatment and control group sizes were considered when interpreting results.
